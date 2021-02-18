@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Myfont';
+    src: url('../fonts/myfont-regular.woff2') format('woff2'),
+        url('../fonts/myfont-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+background-image: url('../images/White-Textured-Background.jpg');
+}
+
+@media (min-width: 100px){
+
+  
+    .header img{
+        grid-area: img;   
+        width: 50%;
+        padding-top: 10px;
+        margin: auto;
+        }
+        
+    .header p{
+        grid-area: p;
+        font-family: 'Myfont';
+        text-align: center;
+        font-size: 3.5rem;
+        color: #474747;
+        opacity: 90%;
+    }
+    .logo{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+        'img'
+        'p';   
+        justify-content: center;
+        align-self: stretch;
+    }
+        
+    
+
+    .navbar{
+        display: flex;  
+        flex-flow: row wrap;
+        align-content: center;
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+    }
+     li {
+        flex-grow: 2;
+        align-self: center;
+        font-family: 'Myfont';
+        color: #474747;
+        opacity: 90%;    
+        font-size: 2rem;
+        text-decoration: none;
+        list-style-type: none;
+        padding: 0 10px;
+       
+    } 
+}
