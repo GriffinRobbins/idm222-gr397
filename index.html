@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GriffinRobbins.com</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    
+    
+</head>
+<body>
+    <div class="header">
+        <header>
+            <a href="index.html">
+                <img src="images/Logo.png" alt="Griffin Robbins Logo">
+            </a>
+            <p>Griffin Robbins</p>
+
+            <nav class="Nav">
+                <ul>
+
+                    <li><a href="games/games.html">Games</a></li>
+                    <li><a href="designs/designs.html">Designs</a></li>
+                    <li><a href="about/about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- Slideshow code from W3 school edited to contain my photos -->
+    <div class="slideshow-container">
+        
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="images/qr_logo.png" style="width:75%" alt="Quantum Robbers Logo">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="images/ragball_logo.jpg" style="width:75%" alt="Ragball Logo">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="images/Rocket-Science-Logo.png" style="width:75%" alt="Rocket-Science-Logo">
+        </div>
+      
+        
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      
+      <!-- Java script from W3. Had to include it here because I was having trouble linking it in-->
+      <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 5000); 
+        }
+        </script>
+
+    <footer>
+        <p>
+            GriffinRobbins.com
+        </p>
+    </footer>
+</body>
+</html>

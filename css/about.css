@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Myfont';
+    src: url('../fonts/myfont-regular.woff2') format('woff2'),
+        url('../fonts/myfont-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+background-image: url('../images/White-Textured-Background.jpg');
+}
+
+.header img{
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+padding-top: 10px;
+
+}
+.header p{
+font-family: 'Myfont';
+text-align: center;
+font-size: 3.5rem;
+color: #474747;
+opacity: 90%;
+margin: auto;
+padding-top: 10px;
+}
+
+.Nav ul {
+    list-style: none;
+        
+}
+        
+        
+.Nav li a {
+    display: block;
+    margin: auto;
+    font-family: 'Myfont';
+    color: #474747;
+    opacity: 90%;    
+    float: left;
+    width: 33%;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.about img{
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+}
+
+.about p{
+    font-family: "Myfont";
+    font-size: 2.3rem;
+    padding: 0 20px;
+}
+
+footer{
+    font-family: "Myfont";     
+    width: 100%;
+    font-size: 2rem;
+    position: absolute;
+    bottom: auto;
+    padding-top: 40px;
+}
+
+footer p {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-right: 45px;
+}
+

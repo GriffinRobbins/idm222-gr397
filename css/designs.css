@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Myfont';
+    src: url('../fonts/myfont-regular.woff2') format('woff2'),
+        url('../fonts/myfont-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+background-image: url('../images/White-Textured-Background.jpg');
+font-family: "Myfont";
+}
+
+.header img{
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+padding-top: 10px;
+
+}
+.header p{
+font-family: 'Myfont';
+text-align: center;
+font-size: 3.5rem;
+color: #474747;
+opacity: 90%;
+margin: auto;
+padding-top: 10px;
+}
+
+.Nav ul {
+    list-style: none;
+        
+}
+        
+        
+.Nav li a {
+    display: block;
+    margin: auto;
+    font-family: 'Myfont';
+    color: #474747;
+    opacity: 90%;    
+    float: left;
+    width: 33%;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+p{
+    font-size: 2.3rem;
+    padding: 0 20px;
+}
+
+h2{
+    padding-top: 30px;
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2.7rem;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.Dunkin iframe{
+    display: block;
+    margin: auto;
+}
+
+.Original img{
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: auto;
+}
+
+.Original p{
+   
+    font-size: 2rem;
+    text-align: center;
+}
+
+.Updated img{
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: auto; 
+}
+
+.Updated p{
+    
+    font-size: 2rem;
+    text-align: center;
+}
+
+.StartScreen img{
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: auto; 
+}
+
+.StartScreen p{
+    
+    font-size: 2rem;
+    text-align: center;
+}
+
+.Settings img{
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: auto; 
+}
+
+.Settings p{
+    
+    font-size: 2rem;
+    text-align: center;
+}
+
+.InGame img{
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: auto; 
+}
+
+.InGame p{
+    
+    font-size: 2rem;
+    text-align: center;
+}
+
+.Inventory img{
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: auto; 
+}
+
+.Inventory p{
+    
+    font-size: 2rem;
+    text-align: center;
+}
+
+footer{
+    font-family: "Myfont";     
+    width: 100%;
+    font-size: 2rem;
+    position: absolute;
+    bottom: auto;
+    padding-top: 40px;
+}
+
+footer p {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-right: 90px;
+}
+

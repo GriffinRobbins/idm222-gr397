@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Myfont';
+    src: url('../fonts/myfont-regular.woff2') format('woff2'),
+        url('../fonts/myfont-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+background-image: url('../images/White-Textured-Background.jpg');
+}
+
+header img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10px;
+    
+}
+
+.header p{
+    font-family: 'Myfont';
+    text-align: center;
+    font-size: 3.5rem;
+    color: #474747;
+    opacity: 90%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.Nav ul {
+    list-style: none;
+        
+}
+        
+        
+.Nav li a {
+    display: block;
+    margin: auto;
+    font-family: 'Myfont';
+    color: #474747;
+    opacity: 90%;    
+    float: left;
+    width: 33%;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.QuantumRobbers,.Ragball, .ATrebledMan, .SolelyBasil, .RocketScience{
+    font-family: 'Myfont';
+}
+
+h2{
+    padding-top: 30px;
+    font-size: 3rem;
+}
+.QuantumRobbers iframe{
+    display: block;
+    margin: auto;
+}
+
+.ATrebledMan iframe{
+    display: block;
+    margin: auto;
+}
+
+p{
+    font-size: 2.3rem;
+    padding: 0 20px;
+}
+
+button{
+    font-family: 'Myfont';
+    font-size: 2.2rem;
+    border-width: 5px;
+    display: block;
+    margin: auto;
+}
+
+.Ragball iframe{
+    display: block;
+    margin: auto;
+}
+
+
+
+.SolelyBasil img{
+    display: block;
+    margin: auto;
+}
+
+
+.RocketScience img{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+}
+
+footer{
+    font-family: "Myfont";     
+    width: 100%;
+    font-size: 2rem;
+    position: absolute;
+    bottom: auto;
+    padding-top: 40px;
+}
+
+footer p {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-right: 90px;
+}
+
+
