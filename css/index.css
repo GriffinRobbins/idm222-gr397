@@ -15,17 +15,43 @@ footer{
     font-family: "Myfont";     
     width: 100%;
     font-size: 2rem;
-    position: absolute;
     bottom: auto;
     padding-top: 40px;
+    
 }
 
 footer p {
-    display: block;
+    text-align: center;
+    display: flex;
     margin: auto;
-    width: 50%;
-    padding-right: 45px;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    justify-items: center;
 }
 
+@media (min-width: 100px){
+    .slideshowContainer img{
+        padding-top: 50px;
+        display: flex;
+        margin: auto;
+        width: 75%;
+    }
+}
+
+@media (min-width: 600px){
+    .slideshowContainer img{
+        display: flex;
+        margin: auto;
+        width: 75%;
+    }
+}
+
+@media (min-width: 1300px){
+    .slideshowContainer img{
+        display: flex;
+        margin: auto;
+        width: 50%;
+    }
+}
 
 
