@@ -11,109 +11,233 @@ body{
 background-image: url('../images/White-Textured-Background.jpg');
 }
 
-header img{
+@media (min-width: 320px){
+    .QuantumRobbers,.Ragball, .ATrebledMan, .SolelyBasil, .RocketScience{
+        font-family: 'Myfont';
+        flex-flow: row wrap;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    .QuantumRobbers p,.Ragball p, .ATrebledMan p, .SolelyBasil p, .RocketScience p{
+        font-size: 2.3rem;
+        padding: 0 30px 20px 20px;
+        margin: auto;
+        text-align: center;
+    }
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-top: 10px;
+
+    .QuantumRobbers h2, .Ragball h2, .ATrebledMan h2, .SolelyBasil h2, .RocketScience h2{
+        margin: auto;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 3rem;
+    }
+
+    .QRVideo, .RBVideo, .TMVideo {
+        position: relative;
+      overflow: hidden;
+      width: 100%;
+      padding-top: 56.25%;
+      }
+      
+      .QRiframe, .RBiframe, .TMiframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 75%;
+        height: 75%;
+        margin: auto;
+      }
+    
+    
+    
+    button{
+        font-family: 'Myfont';
+        font-size: 2.2rem;
+        border-width: 5px;
+        display: block;
+        margin: auto;
+    }
+        
+    
+    
+    .SolelyBasil img{
+        display: flex;
+        margin: auto;
+        padding: 30px 0;
+    }
+    
+    
+    .RocketScience img{
+        display: flex;
+        margin: auto;
+        width: 90%;
+        height: 90%;
+        padding: 30px 0;
+    }
     
 }
 
-.header p{
-    font-family: 'Myfont';
-    text-align: center;
-    font-size: 3.5rem;
-    color: #474747;
-    opacity: 90%;
-    margin: auto;
-    padding-top: 10px;
-}
+@media (min-width: 600px){
+    .QuantumRobbers,.Ragball, .ATrebledMan, .SolelyBasil, .RocketScience{
+        font-family: 'Myfont';
+        flex-flow: row wrap;
+        margin: auto;
+        padding: 20px 0;
+    }
+    .QuantumRobbers p,.Ragball p, .ATrebledMan p, .SolelyBasil p, .RocketScience p{
+        font-size: 2.3rem;
+        padding: 0 30px 20px 20px;
+        margin: auto;
+        text-align: center;
+    }
 
-.Nav ul {
-    list-style: none;
+
+    .QuantumRobbers h2, .Ragball h2, .ATrebledMan h2, .SolelyBasil h2, .RocketScience h2{
+        margin-left: 20px;
+        text-align: left;
+        padding-top: 20px;
+        font-size: 3.3rem;
+        justify-self: start;
+    }
+
+    .QRVideo, .RBVideo, .TMVideo {
+        position: relative;
+      overflow: hidden;
+      width: 100%;
+      padding-top: 56.25%;
+      }
+      
+      .QRiframe, .RBiframe, .TMiframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 93%;
+        height: 93%;
+        margin: auto;
+      }
+    
+    
+    
+    button{
+        font-family: 'Myfont';
+        font-size: 2.2rem;
+        border-width: 5px;
+        display: block;
+        margin: auto;
+    }
         
+    
+    
+    .SolelyBasil img{
+        display: flex;
+        margin: auto;
+        padding: 30px 0;
+    }
+    
+    
+    .RocketScience img{
+        display: flex;
+        margin: auto;
+        width: 90%;
+        height: 90%;
+        padding: 30px 0;
+    }
+    
 }
+
+@media (min-width: 1024px){
+    .QuantumRobbers,.Ragball, .ATrebledMan, .SolelyBasil, .RocketScience{
+        font-family: 'Myfont';
+        flex-flow: row nowrap;
+        margin: auto;
+        padding: 20px 0;
+    }
+    .QuantumRobbers p,.Ragball p, .ATrebledMan p, .SolelyBasil p, .RocketScience p{
+        font-size: 2.3rem;
+        padding: 0 30px 20px 20px;
+        margin: auto;
+        text-align: center;
+    }
+
+
+    .QuantumRobbers h2, .Ragball h2, .ATrebledMan h2, .SolelyBasil h2, .RocketScience h2{
+        margin-left: 20px;
+        text-align: left;
+        padding-top: 20px;
+        font-size: 3.3rem;
+        justify-self: start;
+    }
+
+    .QRVideo, .RBVideo, .TMVideo {
+        position: relative;
+      overflow: hidden;
+      width: 100%;
+      padding-top: 56.25%;
+      }
+      
+      .QRiframe, .RBiframe, .TMiframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 30%;
+        height: 30%;
+        margin: auto;
+      }
+    
+    
+    
+    button{
+        font-family: 'Myfont';
+        font-size: 2.2rem;
+        border-width: 5px;
+        display: block;
+        margin: auto;
+    }
         
-        
-.Nav li a {
-    display: block;
-    margin: auto;
-    font-family: 'Myfont';
-    color: #474747;
-    opacity: 90%;    
-    float: left;
-    width: 33%;
-    font-size: 2rem;
-    text-decoration: none;
-}
-
-.QuantumRobbers,.Ragball, .ATrebledMan, .SolelyBasil, .RocketScience{
-    font-family: 'Myfont';
-}
-
-h2{
-    padding-top: 30px;
-    font-size: 3rem;
-}
-.QuantumRobbers iframe{
-    display: block;
-    margin: auto;
-}
-
-.ATrebledMan iframe{
-    display: block;
-    margin: auto;
-}
-
-p{
-    font-size: 2.3rem;
-    padding: 0 20px;
-}
-
-button{
-    font-family: 'Myfont';
-    font-size: 2.2rem;
-    border-width: 5px;
-    display: block;
-    margin: auto;
-}
-
-.Ragball iframe{
-    display: block;
-    margin: auto;
-}
-
-
-
-.SolelyBasil img{
-    display: block;
-    margin: auto;
-}
-
-
-.RocketScience img{
-    display: block;
-    margin: auto;
-    width: 90%;
-    height: 90%;
+    
+    
+    .SolelyBasil img{
+        display: flex;
+        margin: auto;
+        padding: 30px 0;
+    }
+    
+    
+    .RocketScience img{
+        display: flex;
+        margin: auto;
+        width: 90%;
+        height: 90%;
+        padding: 30px 0;
+    }
+    
 }
 
 footer{
     font-family: "Myfont";     
     width: 100%;
     font-size: 2rem;
-    position: absolute;
     bottom: auto;
     padding-top: 40px;
+    
 }
 
 footer p {
-    display: block;
+    text-align: center;
+    display: flex;
     margin: auto;
-    width: 50%;
-    padding-right: 90px;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    justify-items: center;
 }
+
+
 
 

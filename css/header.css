@@ -11,12 +11,12 @@ body{
 background-image: url('../images/White-Textured-Background.jpg');
 }
 
-a:visited{
+.header a:visited{
     text-decoration: none; 
     color: #474747;
     opacity: 90%;
 }
-a{
+.header a{
     text-decoration: none; 
     color: #474747;
     opacity: 90%;
