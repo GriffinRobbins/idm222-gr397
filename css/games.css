@@ -151,10 +151,153 @@ background-image: url('../images/White-Textured-Background.jpg');
 }
 
 @media (min-width: 1000px){
+
+    .RowOne{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'QRH2 RBH2'
+        'QRVideo RBVideo'
+        'QRp RBp'
+        'QRButton RBbutton';
+        padding-bottom: 0;
+    }
+    
+    .QuantumRobbers h2{
+        display: grid;
+        margin: auto;
+        grid-area: QRH2;
+        justify-content: center;
+    }
+
+    .QRVideo{
+        display: grid;
+        margin: auto;
+        grid-area: QRVideo;
+    }
+   .QuantumRobbers p{
+        grid-area: QRp;
+   }
+   .QuantumRobbers button{
+        grid-area: QRButton;
+   }
+
+   .Ragball h2{
+        display: grid;
+        margin: auto;
+        grid-area: RBH2;
+        justify-content: center;
+    }
+
+    .RBVideo{
+        display: grid;
+        margin: auto;
+        grid-area: RBVideo;
+    }
+    .Ragball p{
+        grid-area: RBp;
+    }
+    .Ragball button{
+        grid-area: RBButton;
+    }  
+    .Ragball{
+        margin: 0;
+    } 
+
+    .RowTwo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'TMH2 SBH2'
+        'TMVideo SBIMG'
+        'TMp SBp'
+        'TMButton SBbutton';
+        padding-bottom: 0;
+    }
+    
+    .ATrebledMan h2{
+        display: grid;
+        margin: auto;
+        grid-area: TMH2;
+        justify-content: center;
+    }
+
+    .TMVideo{
+        display: grid;
+        margin: auto;
+        grid-area: TMVideo;
+    }
+   .ATrebledMan p{
+        grid-area: TMp;
+   }
+   .ATrebledMan button{
+        grid-area: TMButton;
+   }
+
+   .SolelyBasil h2{
+        display: grid;
+        margin: auto;
+        grid-area: SBH2;
+        justify-content: center;
+    }
+
+    .SolelyBasil img{
+        margin: auto;
+        grid-area: SBIMG;
+        width: 54%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .SolelyBasil p{
+        grid-area: SBp;
+    }
+    .SolelyBasil button{
+        grid-area: SBButton;
+    }  
+    .SolelyBasil{
+        margin: 0;
+    }  
+
+    .RowThree{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'RSH2 .'
+        'RSVideo .'
+        'RSp .'
+        'RSButton .';
+        padding-bottom: 0;
+    }
+
+    .RocketScience h2{
+        display: grid;
+        margin: auto;
+        grid-area: RSH2;
+        justify-content: center;
+    }
+
+    .RocketScience img{
+        margin: auto;
+        grid-area: RSIMG;
+        height: 30%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .RocketScience p{
+        grid-area: SBp;
+    }
+    .RocketScience button{
+        grid-area: SBButton;
+    }  
+    .RocketScience{
+        margin: 0;
+    } 
+    
+    
+    
     .QuantumRobbers,.Ragball, .ATrebledMan, .SolelyBasil, .RocketScience{
         font-family: 'Myfont';
         flex-flow: row nowrap;
-        margin: auto;
         padding: 20px 0;
     }
     .QuantumRobbers p,.Ragball p, .ATrebledMan p, .SolelyBasil p, .RocketScience p{
@@ -173,24 +316,6 @@ background-image: url('../images/White-Textured-Background.jpg');
         justify-self: start;
     }
 
-    .QRVideo, .RBVideo, .TMVideo {
-        position: relative;
-      overflow: hidden;
-      width: 100%;
-      padding-top: 56.25%;
-      }
-      
-      .QRiframe, .RBiframe, .TMiframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 30%;
-        height: 30%;
-        margin: auto;
-      }
-    
     
     
     button{
@@ -202,21 +327,6 @@ background-image: url('../images/White-Textured-Background.jpg');
     }
         
     
-    
-    .SolelyBasil img{
-        display: flex;
-        margin: auto;
-        padding: 30px 0;
-    }
-    
-    
-    .RocketScience img{
-        display: flex;
-        margin: auto;
-        width: 90%;
-        height: 90%;
-        padding: 30px 0;
-    }
     
 }
 
