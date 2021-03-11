@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Myfont';
+    src: url('../fonts/myfont-regular.woff2') format('woff2'),
+        url('../fonts/myfont-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background-image: url('../images/White-Textured-Background.jpg');
+    font-family: "Myfont";
+}
+
+footer{
+    font-family: "Myfont";     
+    width: 100%;
+    font-size: 2rem;
+    bottom: auto;
+    padding-top: 40px;
+    
+}
+
+footer p {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+@media (min-width: 100px){
+    .TimeThiefVideo, .KnightVideo, .StatisticianVideo, .CheatVideo, .ThiefVideo,  .LiarVideo{
+        position: relative;
+      overflow: hidden;
+      width: 100%;
+      padding-top: 56.25%;
+      }
+      
+      .TimeThiefiframe, .Knightiframe, .Statisticianiframe, .Cheatiframe, .Thiefiframe, .Liariframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 75%;
+        height: 75%;
+        margin: auto;
+      }
+    .TimeThief h2, .Knight h2, .Statistician h2, .Cheat h2, .Thief h2, .Liar h2{
+        padding-top: 30px;
+      font-size: 3rem;
+      display: flex;
+      margin: auto;
+      text-align: center;
+      justify-content: center;
+    
+    }     
+      
+}
+
