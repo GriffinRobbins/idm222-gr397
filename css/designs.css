@@ -12,44 +12,9 @@ background-image: url('../images/White-Textured-Background.jpg');
 font-family: "Myfont";
 }
 
-.header img{
 
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
-padding-top: 10px;
 
-}
-.header p{
-font-family: 'Myfont';
-text-align: center;
-font-size: 3.5rem;
-color: #474747;
-opacity: 90%;
-margin: auto;
-padding-top: 10px;
-}
-
-.Nav ul {
-    list-style: none;
-        
-}
-        
-        
-.Nav li a {
-    display: block;
-    margin: auto;
-    font-family: 'Myfont';
-    color: #474747;
-    opacity: 90%;    
-    float: left;
-    width: 33%;
-    font-size: 2rem;
-    text-decoration: none;
-}
-
-p{
+.Dunkin p, .StreetFighter p, .FlowerPower p{
     font-size: 2.3rem;
     padding: 0 20px;
 }
