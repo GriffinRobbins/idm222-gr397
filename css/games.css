@@ -150,7 +150,7 @@ background-image: url('../images/White-Textured-Background.jpg');
     
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1000px){
     .QuantumRobbers,.Ragball, .ATrebledMan, .SolelyBasil, .RocketScience{
         font-family: 'Myfont';
         flex-flow: row nowrap;

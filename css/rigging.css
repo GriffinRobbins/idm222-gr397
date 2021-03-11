@@ -60,3 +60,110 @@ footer p {
       
 }
 
+@media (min-width: 1300px){
+    .RowOne{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'TimeThiefH2 KnightH2'
+        'TimeThiefVideo KnightVideo';
+        padding-bottom: 0;
+    }
+
+    .TimeThiefVideo{
+        display: grid;
+        margin: auto;
+        grid-area: TimeThiefVideo;
+    }
+
+    .TimeThief h2{
+        display: grid;
+        margin: auto;
+        grid-area: TimeThiefH2;
+        justify-content: center;
+    }
+
+    .KnightVideo{
+        display: grid;
+        margin: auto;
+        grid-area: KnightVideo;
+    }
+
+    .Knight h2{
+        display: grid;
+        margin: auto;
+        grid-area: KnightH2;
+        justify-content: center;
+    }
+
+    .RowTwo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'StatisticianH2 CheatH2'
+        'StatisticianVideo CheatVideo';
+        padding-bottom: 0;
+    }
+
+    .StatisticianVideo{
+        display: grid;
+        margin: auto;
+        grid-area: StatisticianVideo;
+    }
+
+    .Statistician h2{
+        display: grid;
+        margin: auto;
+        grid-area: StatisticianH2;
+        justify-content: center;
+    }
+
+    .CheatVideo{
+        display: grid;
+        margin: auto;
+        grid-area: CheatVideo;
+    }
+
+    .Cheat h2{
+        display: grid;
+        margin: auto;
+        grid-area: CheatH2;
+        justify-content: center;
+    }
+
+    .RowThree{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'ThiefH2 LiarH2'
+        'ThiefVideo LiarVideo';
+        padding-bottom: 0;
+    }
+
+    .ThiefVideo{
+        display: grid;
+        margin: auto;
+        grid-area: ThiefVideo;
+    }
+
+    .Thief h2{
+        display: grid;
+        margin: auto;
+        grid-area: ThiefH2;
+        justify-content: center;
+    }
+
+    .LiarVideo{
+        display: grid;
+        margin: auto;
+        grid-area: LiarVideo;
+    }
+
+    .Liar h2{
+        display: grid;
+        margin: auto;
+        grid-area: LiarH2;
+        justify-content: center;
+    }
+}
+
