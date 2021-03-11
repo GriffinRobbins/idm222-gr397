@@ -12,122 +12,820 @@ background-image: url('../images/White-Textured-Background.jpg');
 font-family: "Myfont";
 }
 
-
-
-.Dunkin p, .StreetFighter p, .FlowerPower p{
-    font-size: 2.3rem;
-    padding: 0 20px;
-}
-
-h2{
-    padding-top: 30px;
-    font-size: 3rem;
-}
-
-h3{
-    font-size: 2.7rem;
-    display: block;
-    margin: auto;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.Dunkin iframe{
-    display: block;
-    margin: auto;
-}
-
-.Original img{
-    width: 90%;
-    height: 90%;
-    display: block;
-    margin: auto;
-}
-
-.Original p{
-   
-    font-size: 2rem;
-    text-align: center;
-}
-
-.Updated img{
-    width: 90%;
-    height: 90%;
-    display: block;
-    margin: auto; 
-}
-
-.Updated p{
+@media (min-width: 100px){
+    .Dunkin p, .StreetFighter p, .FlowerPower p{
+        font-size: 2.3rem;
+        padding: 0 20px;
+        display: flex;
+        margin: auto;
+        padding-top: 20px;
+    }
     
-    font-size: 2rem;
-    text-align: center;
-}
-
-.StartScreen img{
-    width: 90%;
-    height: 90%;
-    display: block;
-    margin: auto; 
-}
-
-.StartScreen p{
     
-    font-size: 2rem;
-    text-align: center;
-}
-
-.Settings img{
-    width: 90%;
-    height: 90%;
-    display: block;
-    margin: auto; 
-}
-
-.Settings p{
+    .Dunkin h2, .StreetFighter h2, .FlowerPower h2{
+        padding-top: 30px;
+        font-size: 3rem;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
     
-    font-size: 2rem;
-    text-align: center;
-}
-
-.InGame img{
-    width: 90%;
-    height: 90%;
-    display: block;
-    margin: auto; 
-}
-
-.InGame p{
+    h3{
+        font-size: 2.7rem;
+        display: flex;
+        margin: auto;
+        padding: 20px 0px 20px 20px;
+        text-align: center;
+        justify-content: start;
+    }
     
-    font-size: 2rem;
-    text-align: center;
-}
-
-.Inventory img{
-    width: 90%;
-    height: 90%;
-    display: block;
-    margin: auto; 
-}
-
-.Inventory p{
+    .DunkinVideo{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%;
+    }
+    .Dunkiniframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 75%;
+        height: 75%;
+        margin: auto;
+      }
     
-    font-size: 2rem;
-    text-align: center;
+    .Original img{
+        width: 90%;
+        height: 90%;
+        display: block;
+        margin: auto;
+    }
+    
+    .Original p{
+       
+        font-size: 2rem;
+        text-align: center;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    
+    .Updated img{
+        width: 90%;
+        height: 90%;
+        display: block;
+        margin: auto; 
+    }
+    
+    .Updated p{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .StartScreen img{
+        width: 90%;
+        height: 90%;
+        display: block;
+        margin: auto; 
+    }
+    
+    .StartScreen p{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .Settings img{
+        width: 90%;
+        height: 90%;
+        display: block;
+        margin: auto; 
+    }
+    
+    .Settings p{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .InGame img{
+        width: 90%;
+        height: 90%;
+        display: block;
+        margin: auto; 
+    }
+    
+    .InGame p{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .Inventory img{
+        width: 90%;
+        height: 90%;
+        display: block;
+        margin: auto; 
+    }
+    
+    .Inventory p{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+    }
 }
+@media (min-width: 320px){
+    .Dunkin p, .StreetFighter p, .FlowerPower p{
+        font-size: 2.3rem;
+        padding: 0 20px;
+        display: flex;
+        margin: auto;
+        padding-top: 20px;
+    }
+    
+    
+    .Dunkin h2, .StreetFighter h2, .FlowerPower h2{
+        padding-top: 30px;
+        font-size: 3rem;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    h3{
+        font-size: 2.7rem;
+        display: flex;
+        margin: auto;
+        padding: 20px 0px 20px 20px;
+        text-align: center;
+        justify-content: start;
+    }
+    
+    .DunkinVideo{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%;
+    }
+    .Dunkiniframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 75%;
+        height: 75%;
+        margin: auto;
+      }
+    
+    .Original img{
+        width: 90%;
+        height: 90%;
+        display: block;
+        margin: auto;
+    }
+    
+    .Original p{
+       
+        font-size: 1.5rem;
+        text-align: center;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    
+    .Updated img{
+        width: 90%;
+        height: 90%;
+        display: block;
+        margin: auto; 
+    }
+    
+    .Updated p{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .StartScreen img{
+        width: 90%;
+        height: 90%;
+        display: block;
+        margin: auto; 
+    }
+    
+    .StartScreen p{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .Settings img{
+        width: 90%;
+        height: 90%;
+        display: block;
+        margin: auto; 
+    }
+    
+    .Settings p{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .InGame img{
+        width: 90%;
+        height: 90%;
+        display: block;
+        margin: auto; 
+    }
+    
+    .InGame p{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .Inventory img{
+        width: 90%;
+        height: 90%;
+        display: block;
+        margin: auto; 
+    }
+    
+    .Inventory p{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+@media (min-width: 600px){
+    .Dunkin p, .StreetFighter p, .FlowerPower p{
+        font-size: 2.3rem;
+        padding: 0 20px;
+        display: flex;
+        margin: auto;
+        padding-top: 20px;
+    }
+    
+    
+    .Dunkin h2, .StreetFighter h2, .FlowerPower h2{
+        padding-top: 30px;
+        font-size: 3rem;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    h3{
+        font-size: 2.7rem;
+        display: flex;
+        margin: auto;
+        padding: 20px 0px 20px 20px;
+        text-align: center;
+        justify-content: start;
+    }
+    
+    .DunkinVideo{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%;
+    }
+    .Dunkiniframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 75%;
+        height: 75%;
+        margin: auto;
+      }
+    
+    .Original img{
+        width: 90%;
+        height: 90%;
+        display: block;
+        margin: auto;
+    }
+    
+    .Original p{
+       
+        font-size: 2rem;
+        text-align: center;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    
+    .Updated img{
+        width: 90%;
+        height: 90%;
+        display: block;
+        margin: auto; 
+    }
+    
+    .Updated p{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .StartScreen img{
+        width: 90%;
+        height: 90%;
+        display: block;
+        margin: auto; 
+    }
+    
+    .StartScreen p{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .Settings img{
+        width: 90%;
+        height: 90%;
+        display: block;
+        margin: auto; 
+    }
+    
+    .Settings p{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .InGame img{
+        width: 90%;
+        height: 90%;
+        display: block;
+        margin: auto; 
+    }
+    
+    .InGame p{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .Inventory img{
+        width: 90%;
+        height: 90%;
+        display: block;
+        margin: auto; 
+    }
+    
+    .Inventory p{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+@media (min-width: 1000px){
+    .Dunkin p, .StreetFighter p, .FlowerPower p{
+        font-size: 2.3rem;
+        padding: 0 20px;
+        display: flex;
+        margin: auto;
+        padding-top: 30px;
+        max-width: 1500px;
+    }
+    
+    
+    .Dunkin h2, .StreetFighter h2, .FlowerPower h2{
+        padding-top: 50px;
+        font-size: 3rem;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    h3{
+        font-size: 2.7rem;
+        display: flex;
+        margin: auto;
+        padding: 20px 0px 20px 20px;
+        text-align: center;
+        justify-content: start;
+    }
+    
+    .DunkinVideo{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 75%;
+        margin: auto;
+    }
+    .Dunkiniframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 75%;
+        height: 75%;
+        margin: auto;
+    }
+    
+    .SFDesign{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'OrginalH3 UpdatedH3'
+        'OriginalImg UpdatedImg'
+        'Originalp Updatedp';
+        padding-bottom: 60px;
+    }
+
+    .Original img{
+        width: 75%;
+        height: 75%;
+        display: grid;
+        margin: auto;
+        grid-area: OriginalImg;
+    }
+    .Original h3{
+        grid-area: OriginalH3;
+        justify-content: center;
+    }
+    
+    .Original p{
+        padding-top: 10px;
+        font-size: 2rem;
+        text-align: center;
+        justify-content: center;
+        grid-area: Originalp;
+    }
+
+    
+    .Updated img{
+        width: 75%;
+        height: 75%;
+        grid-area: UpdatedImg;
+        
+    }
+    
+    .Updated p{
+        padding-top: 10px;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+        grid-area: Updatedp;
+    }
+
+    .Updated h3{
+        grid-area: UpatedH3;
+        justify-content: center;
+    }
+
+    .FPRowOne{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'StartscreenH3 SettingsH3'
+        'StartscreenImg SettingsImg'
+        'Startscreenp Settingsp';
+    }
+    
+    .StartScreen img{
+        width: 75%;
+        height: 75%;
+        grid-area: StartscreenImg;
+        
+    }
+
+    .StartScreen h3{
+        grid-area: StartscreenH3;
+        justify-content: center;
+    }
+    
+    .StartScreen p{
+        grid-area: Startscreenp;
+        justify-content: center;
+        font-size: 1.5rem;
+        text-align: center;
+        max-width: 800px;
+    }
+    .Settings h3{
+        grid-area: SettingsH3;
+        justify-content: center;
+    }
+    
+    .Settings img{
+        width: 75%;
+        height: 75%;
+        grid-area: SettingsImg;
+    }
+    
+    .Settings p{
+        grid-area: Settingsp;
+        justify-content: center;
+        font-size: 1.5rem;
+        text-align: center;
+        max-width: 800px;
+    }
+    
+    .FPRowTwo{
+        padding-top: 100px;
+        padding-bottom: 120px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        'InGameH3 InventoryH3'
+        'InGameImg InventoryImg'
+        'InGamep Inventoryp';
+    }
+    .InGame img{
+        width: 75%;
+        height: 75%;
+        grid-area: InGameImg;
+    }
+    
+    .InGame p{
+        grid-area: InGamep;
+        justify-content: center;
+        font-size: 1.5rem;
+        text-align: center;
+        max-width: 800px;
+    }
+
+    .InGame h3{
+        grid-area: InGameH3;
+        justify-content: center;
+    }
+    
+    .Inventory img{
+        width: 75%;
+        height: 75%;
+        grid-area: InventoryImg;
+    }
+    
+    .Inventory p{
+        grid-area: Inventoryp;
+        justify-content: center;
+        font-size: 1.5rem;
+        text-align: center;
+        max-width: 800px;
+    }
+
+    .Inventory h3{
+        grid-area: InventoryH3;
+        justify-content: center;
+    }
+}
+@media (min-width: 1600px){
+    .Dunkin p, .StreetFighter p, .FlowerPower p{
+        font-size: 2.3rem;
+        padding: 0 20px;
+        display: flex;
+        margin: auto;
+        padding-top: 30px;
+        max-width: 1500px;
+    }
+    
+    
+    .Dunkin h2, .StreetFighter h2, .FlowerPower h2{
+        padding-top: 50px;
+        font-size: 3rem;
+        display: flex;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    h3{
+        font-size: 2.7rem;
+        display: flex;
+        margin: auto;
+        padding: 20px 0px 20px 20px;
+        text-align: center;
+        justify-content: start;
+    }
+    
+    .DunkinVideo{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 75%;
+        margin: auto;
+    }
+    .Dunkiniframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 75%;
+        height: 75%;
+        margin: auto;
+    }
+    
+    .SFDesign{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'OrginalH3 UpdatedH3'
+        'OriginalImg UpdatedImg'
+        'Originalp Updatedp';
+        padding-bottom: 0;
+    }
+
+    .Original img{
+        width: 75%;
+        height: 75%;
+        display: grid;
+        margin: auto;
+        grid-area: OriginalImg;
+    }
+    .Original h3{
+        grid-area: OriginalH3;
+        justify-content: center;
+    }
+    
+    .Original p{
+        padding-top: 10px;
+        font-size: 2rem;
+        text-align: center;
+        justify-content: center;
+        grid-area: Originalp;
+    }
+
+    
+    .Updated img{
+        width: 75%;
+        height: 75%;
+        grid-area: UpdatedImg;
+        
+    }
+    
+    .Updated p{
+        padding-top: 10px;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+        grid-area: Updatedp;
+    }
+
+    .Updated h3{
+        grid-area: UpatedH3;
+        justify-content: center;
+    }
+
+    .FPRowOne{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'StartscreenH3 SettingsH3'
+        'StartscreenImg SettingsImg'
+        'Startscreenp Settingsp';
+    }
+    
+    .StartScreen img{
+        width: 75%;
+        height: 75%;
+        grid-area: StartscreenImg;
+        
+    }
+
+    .StartScreen h3{
+        grid-area: StartscreenH3;
+        justify-content: center;
+    }
+    
+    .StartScreen p{
+        grid-area: Startscreenp;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+        max-width: 800px;
+    }
+    .Settings h3{
+        grid-area: SettingsH3;
+        justify-content: center;
+    }
+    
+    .Settings img{
+        width: 75%;
+        height: 75%;
+        grid-area: SettingsImg;
+    }
+    
+    .Settings p{
+        grid-area: Settingsp;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+        max-width: 800px;
+    }
+    
+    .FPRowTwo{
+        padding-top: 80px;
+        padding-bottom: 120px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        'InGameH3 InventoryH3'
+        'InGameImg InventoryImg'
+        'InGamep Inventoryp';
+    }
+    .InGame img{
+        width: 75%;
+        height: 75%;
+        grid-area: InGameImg;
+    }
+    
+    .InGame p{
+        grid-area: InGamep;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+        max-width: 800px;
+    }
+
+    .InGame h3{
+        grid-area: InGameH3;
+        justify-content: center;
+    }
+    
+    .Inventory img{
+        width: 75%;
+        height: 75%;
+        grid-area: InventoryImg;
+    }
+    
+    .Inventory p{
+        grid-area: Inventoryp;
+        justify-content: center;
+        font-size: 2rem;
+        text-align: center;
+        max-width: 800px;
+    }
+
+    .Inventory h3{
+        grid-area: InventoryH3;
+        justify-content: center;
+    }
+}
+
+
 
 footer{
     font-family: "Myfont";     
     width: 100%;
     font-size: 2rem;
-    position: absolute;
     bottom: auto;
     padding-top: 40px;
+    
 }
 
 footer p {
-    display: block;
+    text-align: center;
+    display: flex;
     margin: auto;
-    width: 50%;
-    padding-right: 90px;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    justify-items: center;
 }
 
