@@ -9,6 +9,7 @@
 
 body{
 background-image: url('../images/White-Textured-Background.jpg');
+font-family: Myfont;
 }
 
 .header a:visited{
